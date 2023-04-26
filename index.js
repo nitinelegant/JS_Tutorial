@@ -145,8 +145,50 @@ console.log(priceOfBiscuitByYash == priceOfBiscuitByRahul);
 // && AND
 //|| OR
 
-
 // js type conversion
 
 //1. implicit -> automic
 //2. explicit conversion
+
+// if else
+// there are 3 form
+//1. if
+//2. if ..else
+//3. if ... else if ... else
+
+// if condition
+
+let timing = 10;
+let employee1 = 9;
+let employee2 = 10;
+let employee3 = 11;
+
+if (employee1 <= timing) {
+  console.log("You have come on time. Welcome!");
+}
+
+if (employee2 <= timing) {
+  console.log("You have come on time. Welcome!");
+}
+if (employee3 <= timing) {
+  console.log("You have come on time. Welcome!");
+}
+
+// if .. else
+
+if (employee1 <= timing) {
+  console.log("You have come on time. Welcome!");
+} else {
+  console.log("OOPS! You are late. You will get a deuct in your salary.");
+}
+
+// if else if ..else
+if (employee1 <= timing) {
+  console.log("You have come on time. Welcome!");
+} else if (employee2 <= timing) {
+  console.log("You have come on time. Welcome!");
+} else if (employee3 <= 10) {
+  console.log("You have come on time. Welcome!");
+} else {
+  console.log("OOPS! You are late. You will get a deuct in your salary.");
+}
